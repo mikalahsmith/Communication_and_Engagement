@@ -1,0 +1,5 @@
+library(readxl)
+student_attr = read_xlsx("Student Attribute File.xlsx")
+visits = read_xlsx("Office Walk-In Visits 20220922-092641.xlsx")
+tours = read_xlsx("New Tour Form 20220922-092657.xlsx")
+emails = read_xlsx("Email Mass File of Admitted Students 20220922-092357.xlsx")
